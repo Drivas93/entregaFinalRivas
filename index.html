@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Simulador e-commerce</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Simulador de e-commerce</h1>
+    </header>
+
+    <main>
+        <div id="datosUsuario">
+            <h3> Bienvenide al simulador para verificar si contamos con cobertura de envío en tu localidad y con los productos que necesitas </h3>
+            <span>Nombre:</span> <input type="text" name="nombre" id="nombre" placeholder="Ingrese aquí su nombre">
+            <span>Apellido:</span> <input type="text" name="apellido" id="apellido" placeholder="Ingrese aquí su apellido">
+            <button id="ingresar">INGRESAR DATOS</button>
+        </div>
+        <div id="bienvenida">
+        <!-- Se ingresa contenido de bienvenida desde js despúes de ingresar información de usuario -->
+        </div>
+        <div id="stockProductos">
+
+        </div>
+        <div id="cobertura">
+             <!-- Se crea select de ciudades con envíos disponibles desde js-->
+        </div>
+
+        <div id="siguiente">
+            <!-- Se crea boton siguiente desde js -->
+        </div>
+
+        <div id="random">
+            <!-- Armo div en js -->
+        </div>
+        <!-- 
+        <button id="random"> Quiero mis Cita de The Office </button>
+        <input type="text" name="name" id="name" placeholder="Ingresa tu personaje Favorito"> -->
+
+
+    </main>
+
+    <!-- inserto CDN de SweetAlert -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>   
+    <!-- Inserto archivo js -->
+    <script src="index.js"></script>
+   
+</body>
+</html>
